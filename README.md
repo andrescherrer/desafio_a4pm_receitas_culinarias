@@ -1,4 +1,4 @@
-# Aplicação: Cadastros Receitas Culinárias
+# Aplicação: Cadastro de Receitas Culinárias
 
 ## Funcionalidades
 
