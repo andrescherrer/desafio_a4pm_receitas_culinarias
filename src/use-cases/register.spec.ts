@@ -18,6 +18,6 @@ describe('Register Use Case', () => {
             senha: 'senha123',
         })
 
-        expect(usuario.id).toEqual(expect.any(Number))
+        expect(usuario.usuario.id).toEqual(expect.any(Number))
     })
 })

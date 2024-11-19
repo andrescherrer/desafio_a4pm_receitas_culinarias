@@ -10,7 +10,6 @@ interface RegisterUseCaseRequest {
 }
 
 interface RegisterUseCaseResponse {
-    id?: any;
     usuario: Usuario
 }
 
@@ -38,6 +37,6 @@ export class RegisterUseCase {
 
         return {
             usuario,
-        }    
+        }   
     }
 }
