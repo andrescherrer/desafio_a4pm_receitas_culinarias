@@ -2,7 +2,7 @@
 
 ## Funcionalidades
 
-- [ ] Cadastro de usuário no sistema
+- [X] Cadastro de usuário no sistema
 - [ ] Login de usuário.
 - [ ] Logoff de usuário.
 - [ ] Cadastro de receitas pelo usuário.
