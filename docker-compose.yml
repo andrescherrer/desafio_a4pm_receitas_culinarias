@@ -1,15 +1,13 @@
 services:
   database:
-    image: mysql:8.0.40-debian
+    build:
+      context: .
+      dockerfile: ./Dockerfile
     ports:
-      - 5432:5432
+      - 3366:3306
     environment:
       - MYSQL_ROOT_PASSWORD=pass
       - MYSQL_ROOT_HOST=%
       - MYSQL_DATABASE=receitas
-      - MYSQL_USER=user
-      - MYSQL_PASSWORD=pass
-      
-      # - POSTGRESQL_USERNAME=user
-      # - POSTGRESQL_PASSWORD=pass
-      # - POSTGRESQL_DATABASE=receitas
+      - MYSQL_USER=master
+      - MYSQL_PASSWORD=password
